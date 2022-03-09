@@ -1,0 +1,22 @@
+.balance-wrapper {
+  width: 100%;
+  .balance-heading {
+    
+    h1 {
+      text-transform: capitalize;
+      font-size: 32px;
+      line-height: 36px;
+      font-weight: 800;
+    }
+  }
+
+  .balance-container {
+
+    margin: 1rem 0;
+    span{
+      background-color: rgb(228, 16, 16);
+      color: #ffffff;
+      padding: 0 4px;
+    }
+  }
+}

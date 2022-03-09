@@ -1,0 +1,79 @@
+.filter-list-wrapper {
+//   padding: 1rem;
+  max-width: 280px;
+  width: 100%;
+  border-radius: 3px;
+  max-height: 450px;
+background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.522),
+    rgba(0,0,0, 100)
+  ),url('https://www.itl.cat/pngfile/big/309-3095342_bitcoin-pattern-png.png');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
+
+  button {
+    background: none;
+    svg {
+      color: $clr5;
+    }
+  }
+
+  .contact-filter {
+    margin-bottom: 1rem;
+    input {
+      width: 100%;
+      padding: 10px 35px 10px 15px;
+      border: none;
+      border-radius: 100px;
+      outline: none;
+    }
+
+    button {
+      background: transparent;
+      border: none;
+      outline: none;
+      margin-left: -33px;
+    }
+
+    svg {
+      color: black;
+      width: 20px;
+      height: 20px;
+      object-fit: cover;
+    }
+  }
+
+  .contact-list {
+    // width: 100%;
+    // height: 100%;
+    height: 500px;
+    // background-color: #a8bbbf;
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+}

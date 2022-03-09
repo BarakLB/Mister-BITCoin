@@ -1,0 +1,85 @@
+.signup-wrapper {
+  height: 100%;
+  width: 100%;
+  .top-img {
+    max-height: 450px;
+    z-index: 0;
+    position: absolute;
+    right: 0;
+    margin-right: 4rem;
+  }
+
+  .bottom-img {
+    position: absolute;
+    max-height: 300px;
+    z-index: 0;
+    margin-left: 1rem;
+  }
+}
+
+.signup-page {
+  min-height: 400px;
+  position: relative;
+  background-color: #7A0BC0;
+  max-width: 450px;
+//   color: $clr2;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 5;
+  .signup-heading {
+    margin: 1rem 0;
+    h1 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+    // svg {
+        //     font-size: 42px;
+        // }
+        img {
+            margin: 1rem 0;
+      height: 98px;
+    }
+  }
+
+  .sign-form {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    label {
+      //   padding-right: 2rem;
+      margin-top: 0.5rem;
+      font-size: 20px;
+      font-weight: 450;
+    }
+    input {
+        background-color: $clr1;
+        color: $clr2;
+      margin-top: 0.5rem;
+      padding: 2px 5px ;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      &:active, &:hover, &:focus{
+        //   outline: auto #9A0680;
+            background-color: #BC6FF1;
+      }
+    }
+}
+
+button {
+      margin-top: 1.5rem;
+    align-self: center;
+    background-color: #9A0680;
+    color: #ffffff;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 3px;
+transition: all 0.3s;
+    &:hover {
+        background-color: #BC6FF1;
+    }
+  }
+
+  z-index: 5;
+}

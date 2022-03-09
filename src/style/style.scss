@@ -1,0 +1,25 @@
+//SETUP
+@import './setup/variables.scss';
+@import './setup/typography.scss';
+
+//BASE
+@import './basics/helpers.scss';
+@import './basics/base.scss';
+
+
+//PAGES
+@import './pages/home-view.scss';
+@import './pages/contact-app.scss';
+@import './pages/signup-page.scss';
+@import './pages/contact-details.scss';
+@import './pages/contact-edit.scss';
+@import './pages/charts.scss';
+
+//CMPS
+@import './cmps/app-header.scss';
+@import './cmps/hero.scss';
+@import './cmps/benefits.scss';
+@import './cmps/user-balance.scss';
+@import './cmps/move-list.scss';
+@import './cmps/contact-list.scss';
+@import './cmps/contact-preview.scss';

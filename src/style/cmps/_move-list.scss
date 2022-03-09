@@ -1,0 +1,27 @@
+.moves-container {
+  width: 100%;
+  .moves-heading {
+      padding: 1rem;
+    h1 {
+      font-size: 28px;
+      text-transform: capitalize;
+    }
+  }
+
+  .moves-list {
+      margin: 2rem 0 3rem;
+      flex-wrap: wrap;
+      flex: 1;
+    .move-preview {
+    //   border: 1px solid black;
+      padding: 1rem;
+      div {
+          margin: 0.1rem 0;
+      }
+      p {
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+}

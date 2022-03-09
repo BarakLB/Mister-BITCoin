@@ -1,0 +1,60 @@
+.charts-wrapper {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    58deg,
+    rgba(255, 211, 234, 1) 10%,
+    rgba(158, 237, 223, 1) 45%,
+    rgba(145, 209, 255, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    58deg,
+    rgba(255, 211, 234, 1) 10%,
+    rgba(158, 237, 223, 1) 45%,
+    rgba(145, 209, 255, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    58deg,
+    rgba(255, 211, 234, 1) 10%,
+    rgba(158, 237, 223, 1) 45%,
+    rgba(145, 209, 255, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91D1FF', endColorstr='#FFD3EA', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    58deg,
+    rgba(255, 211, 234, 1) 10%,
+    rgba(158, 237, 223, 1) 45%,
+    rgba(145, 209, 255, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    58deg,
+    rgba(255, 211, 234, 1) 10%,
+    rgba(158, 237, 223, 1) 45%,
+    rgba(145, 209, 255, 1) 100%
+  );
+  padding: 2rem;
+  .charts-heading {
+    color: $clr2;
+    h1 {
+      margin-bottom: 0.2rem;
+      font-size: 26px;
+      text-align: center;
+    }
+
+    p {
+      margin-left: 1rem;
+      &:last-child {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

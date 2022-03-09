@@ -1,0 +1,40 @@
+.benefits-wrapper {
+  .benefits-heading {
+    margin: 0 0 3rem;
+    h1 {
+      font-size: 44px;
+      line-height: 50px;
+    }
+  }
+
+  .benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+    // flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    // grid-template-columns: repeat(2, 1fr);
+    max-width: 850px;
+    margin: 0 auto;
+.benefit {
+  max-width: 370px;
+}
+    h1 {
+      font-size: 20px;
+      line-height: 25px;
+      // color: orange;
+    }
+
+    img {
+      margin-right: 0.5rem;
+      height: 48px;
+      width: 48px;
+    }
+
+    > * {
+  margin-right: 3rem;
+  margin-top: 1.5rem;
+    }
+  }
+}
+
